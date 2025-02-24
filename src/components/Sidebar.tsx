@@ -2,7 +2,7 @@ import React from 'react';
 import { Drawer, List, ListItemButton, ListItemIcon, ListItemText, Collapse, Typography, Box } from '@mui/material';
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
 import { FaTachometerAlt, FaTruck, FaRoad, FaUser, FaPlus, FaClipboardList } from 'react-icons/fa';
-import sidelogo from './assets/sidelogo.png';
+import sidelogo from '../assets/sidelogo.png';
 
 const SidebarMenu: React.FC = () => {
     const [openDriver, setOpenDriver] = React.useState(false);

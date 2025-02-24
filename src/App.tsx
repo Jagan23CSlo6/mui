@@ -1,6 +1,5 @@
-// import './components/Sidebar.tsx'
+import './components/Sidebar.tsx'
 import './App.css'
-
 import SidebarMenu from './components/Sidebar.tsx'
 import DriverModule from './components/DriverModule.tsx'
 import TopBar from './components/Topbar.tsx'
@@ -12,7 +11,7 @@ function App() {
     <>
     <TopBar></TopBar>
     <div>
-      <SidebarMenu/>
+      < SidebarMenu/>
       <DriverModule/>
       </div>
     </>
